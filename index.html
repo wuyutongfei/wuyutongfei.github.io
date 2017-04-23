@@ -596,14 +596,8 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="引用官方介绍vue"><a href="#引用官方介绍vue" class="headerlink" title="引用官方介绍vue"></a>引用官方介绍vue</h2><p>Vue.js（读音 /vjuː/，类似于 view） 是一套构建用户界面的渐进式框架。与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。Vue 的核心库只关注视图层，它不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与单文件组件和 Vue 生态系统支持的库结合使用时，Vue 也完全能够为复杂的单页应用程序提供驱动。</p>
-<h3 id="兼容性"><a href="#兼容性" class="headerlink" title="兼容性"></a>兼容性</h3><p>Vue.js 不支持 IE8 及其以下版本，因为 Vue.js 使用了 IE8 不能模拟的 ECMAScript 5 特性。 Vue.js 支持所有兼容 ECMAScript 5 的浏览器。</p>
-<p>Vue运作模式<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">一个核心思想：轻</div><div class="line">一位带头大哥：Vue实例</div><div class="line">一个基本运作方式：响应式数据绑定</div><div class="line">一群打杂小弟：生命周期,模板语法,指令系统,事件系统,条件渲染,循环渲染,组件方法......</div></pre></td></tr></table></figure></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">VueJS的模式：MVV模式</div></pre></td></tr></table></figure>
-<h3 id="Vue模板语法"><a href="#Vue模板语法" class="headerlink" title="Vue模板语法"></a>Vue模板语法</h3><p>Vue.js 使用了基于 HTML 的模版语法，允许开发者声明式地将 DOM 绑定至底层 Vue 实例的数据。所有 Vue.js 的模板都是合法的 HTML ，所以能被遵循规范的浏览器和 HTML 解析器解析。<br>html中只需要写标签，通过Vue.js代码把数据渲染到视图模板<br>做一个简单得例子：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">&lt;div id="app"&gt;</div><div class="line">	&lt;h1&gt;&#123;&#123;message&#125;&#125;&lt;/h1&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">&lt;script type="text/javascript" src="./vue.js"&gt;&lt;/script&gt;</div><div class="line">&lt;script type="text/javascript" &gt;</div><div class="line">	var app = new Vue(&#123;</div><div class="line">	el:"#app",</div><div class="line">	data:&#123;</div><div class="line">	  message:"我们一起来学习Vue框架"</div><div class="line">	&#125;,</div><div class="line">&#125;)</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
-<h3 id="Vue指令"><a href="#Vue指令" class="headerlink" title="Vue指令"></a>Vue指令</h3><p>v- 前缀在模板中是作为一个标示 Vue 特殊属性的明显标识。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">v-text</div><div class="line">v-html</div><div class="line">v-show</div><div class="line">v-<span class="keyword">if</span> 是否 如果</div><div class="line">v-<span class="keyword">else</span> 结果 必须配合v-<span class="keyword">if</span>使用</div><div class="line">v-<span class="keyword">else</span>-<span class="keyword">if</span> 结果 必须配合v-<span class="keyword">if</span>使用</div><div class="line">v-<span class="keyword">for</span> 循环</div><div class="line">v-on 事件绑定 简写<span class="string">"@"</span></div><div class="line">v-bind 绑值 简写“:”</div><div class="line">v-model</div><div class="line">v-pre</div><div class="line">v-cloak</div><div class="line">v-once</div></pre></td></tr></table></figure></p>
-
+              <h2 id="引用官方介绍vue"><a href="#引用官方介绍vue" class="headerlink" title="引用官方介绍vue"></a>引用官方介绍vue</h2><p>Vue.js（读音 /vjuː/，类似于 view） 是一套构建用户界面的渐进式框架。与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。Vue 的核心库只关注视图层，它不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与单文件组件和 Vue 生态系统支持的库结合使用时，Vue 也完全能够为复杂的单页应用程序提供驱动。<br>
+          
       
       
     </div>
@@ -621,6 +615,10 @@
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue/">vue</a></li></ul>
     </div>
 
+      
+        <p class="article-more-link">
+          <a  href="/2017/04/20/Vue-学习过程记录/#more">大航海 >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
