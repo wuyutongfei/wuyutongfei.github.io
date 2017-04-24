@@ -152,7 +152,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/Atom/" style="font-size: 10px;">Atom</a> <a href="/tags/bootstrap-css-css3/" style="font-size: 10px;">bootstrap css css3</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo-blog/" style="font-size: 10px;">hexo blog</a> <a href="/tags/markdown快捷键/" style="font-size: 10px;">markdown快捷键</a> <a href="/tags/nodejs-express-npm/" style="font-size: 10px;">nodejs express npm</a> <a href="/tags/php-织梦-dede/" style="font-size: 10px;">php 织梦 dede</a> <a href="/tags/react-框架/" style="font-size: 10px;">react 框架</a> <a href="/tags/vue/" style="font-size: 10px;">vue</a> <a href="/tags/内核-五大浏览器/" style="font-size: 10px;">内核 五大浏览器</a> <a href="/tags/状态码/" style="font-size: 10px;">状态码</a> <a href="/tags/跨域-get-post-jsonp-iframe/" style="font-size: 10px;">跨域  get post jsonp iframe</a>
+                        <a href="/tags/Atom/" style="font-size: 10px;">Atom</a> <a href="/tags/bootstrap-css-css3/" style="font-size: 10px;">bootstrap css css3</a> <a href="/tags/bower/" style="font-size: 10px;">bower</a> <a href="/tags/css-hack-属性-选择器-条件注释/" style="font-size: 10px;">css hack 属性 选择器 条件注释</a> <a href="/tags/css-渐进增强-优雅降级/" style="font-size: 10px;">css 渐进增强 优雅降级</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo-blog/" style="font-size: 10px;">hexo blog</a> <a href="/tags/markdown快捷键/" style="font-size: 10px;">markdown快捷键</a> <a href="/tags/mvc-mvvm/" style="font-size: 10px;">mvc mvvm</a> <a href="/tags/nodejs-express-npm/" style="font-size: 10px;">nodejs express npm</a> <a href="/tags/php-织梦-dede/" style="font-size: 10px;">php 织梦 dede</a> <a href="/tags/react-框架/" style="font-size: 10px;">react 框架</a> <a href="/tags/vue/" style="font-size: 10px;">vue</a> <a href="/tags/vue-webpack-webpack-simple/" style="font-size: 10px;">vue webpack webpack-simple</a> <a href="/tags/webpack-vue-router/" style="font-size: 10px;">webpack vue router</a> <a href="/tags/yeoman-npm-bower-gulp/" style="font-size: 10px;">yeoman npm bower gulp</a> <a href="/tags/内核-五大浏览器/" style="font-size: 10px;">内核 五大浏览器</a> <a href="/tags/状态码/" style="font-size: 10px;">状态码</a> <a href="/tags/跨域-get-post-jsonp-iframe/" style="font-size: 10px;">跨域  get post jsonp iframe</a>
                     </div>
                 </section>
                 
@@ -244,6 +244,390 @@
     </div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-强大的bootstrap" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/04/20/强大的bootstrap/" class="article-date">
+      <time datetime="2017-04-20T11:26:57.000Z" itemprop="datePublished">2017-04-20</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/20/强大的bootstrap/">强大的bootstrap</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h2 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h2><h3 id="下载-http-v3-bootcss-com-getting-started"><a href="#下载-http-v3-bootcss-com-getting-started" class="headerlink" title="下载 http://v3.bootcss.com/getting-started/"></a>下载 <a href="http://v3.bootcss.com/getting-started/">http://v3.bootcss.com/getting-started/</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 最新版本的 Bootstrap 核心 CSS 文件 --&gt;</div><div class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css&quot; integrity=&quot;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&quot; crossorigin=&quot;anonymous&quot;&gt;</div><div class="line"></div><div class="line">&lt;!-- 可选的 Bootstrap 主题文件（一般不用引入） --&gt;</div><div class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css&quot; integrity=&quot;sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp&quot; crossorigin=&quot;anonymous&quot;&gt;</div><div class="line"></div><div class="line">&lt;!-- 最新的 Bootstrap 核心 JavaScript 文件 --&gt;</div><div class="line">&lt;script src=&quot;https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js&quot; integrity=&quot;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</div></pre></td></tr></table></figure>
+          
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/bootstrap/">bootstrap</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/bootstrap-css-css3/">bootstrap css css3</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a  href="/2017/04/20/强大的bootstrap/#more">大航海 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-Vue-学习过程记录" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/04/20/Vue-学习过程记录/" class="article-date">
+      <time datetime="2017-04-20T11:24:45.000Z" itemprop="datePublished">2017-04-20</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/20/Vue-学习过程记录/">Vue 学习过程记录</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h2 id="引用官方介绍vue"><a href="#引用官方介绍vue" class="headerlink" title="引用官方介绍vue"></a>引用官方介绍vue</h2><p>Vue.js（读音 /vjuː/，类似于 view） 是一套构建用户界面的渐进式框架。与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。Vue 的核心库只关注视图层，它不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与单文件组件和 Vue 生态系统支持的库结合使用时，Vue 也完全能够为复杂的单页应用程序提供驱动。<br>
+          
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/vue/">vue</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue/">vue</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a  href="/2017/04/20/Vue-学习过程记录/#more">大航海 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="w-yeoman-web脚手架工具" class="article article-type-w" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/04/19/yeoman-web脚手架工具/" class="article-date">
+      <time datetime="2017-04-19T13:42:44.000Z" itemprop="datePublished">2017-04-19</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/19/yeoman-web脚手架工具/">yeoman(web脚手架工具)</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h3 id="为现代网络应用提供的web脚手架工具"><a href="#为现代网络应用提供的web脚手架工具" class="headerlink" title="为现代网络应用提供的web脚手架工具"></a>为现代网络应用提供的web脚手架工具</h3>
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/yeoman/">yeoman</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/yeoman-npm-bower-gulp/">yeoman npm bower gulp</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="w-react组件工具" class="article article-type-w" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/04/19/react组件工具/" class="article-date">
+      <time datetime="2017-04-19T13:17:25.000Z" itemprop="datePublished">2017-04-19</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/19/react组件工具/">react组件工具</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/react/">react</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/react-框架/">react 框架</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-安装AtomSetup必备下载软件看这里" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/04/18/安装AtomSetup必备下载软件看这里/" class="article-date">
+      <time datetime="2017-04-18T13:38:37.000Z" itemprop="datePublished">2017-04-18</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/18/安装AtomSetup必备下载软件看这里/">安装AtomSetup必备下载软件看这里</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">autoprefixer 自动加浏览器前缀</div><div class="line">atom-beautify  规范你的代码格式</div><div class="line">atom-clock 在编译器的右下角添加系统时间</div><div class="line">autocomplete-paths 自动路径提示</div><div class="line">color-picker 取色器</div><div class="line">css-color-name 自动颜色单词提示</div><div class="line">file-icons 文件图标</div><div class="line">minimap 右上角的迷你地图</div><div class="line">open-<span class="keyword">in</span>-browser 右键选择打开浏览器</div><div class="line">pigments 颜色代码，显示颜色</div><div class="line">activate-power-mode 敲代码的小游戏</div><div class="line">simplified-chinese-menu 简体中文包</div></pre></td></tr></table></figure>
+<p>#Atom 编辑器 入门 快捷键<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">文件切换</div><div class="line">ctrl-shift-s 保存所有打开的文件</div><div class="line">cmd-shift-o 打开目录</div><div class="line">cmd-\ 显示或隐藏目录树</div><div class="line">ctrl<span class="number">-0</span> 焦点移到目录树 注意这里是数字 <span class="number">0</span> 非常实用，也可以用 cmd+\来变相达到效果</div></pre></td></tr></table></figure></p>
+
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/软件/">软件</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Atom/">Atom</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="w-git分布式文档管理系统" class="article article-type-w" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/04/18/git分布式文档管理系统/" class="article-date">
+      <time datetime="2017-04-18T13:35:46.000Z" itemprop="datePublished">2017-04-18</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/18/git分布式文档管理系统/">git分布式文档管理系统</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/管理系统/">管理系统</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
   
     <article id="post-node-js安装完整版过程" class="article article-type-post" itemscope itemprop="blogPost">
   
